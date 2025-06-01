@@ -1,0 +1,9 @@
+[package]
+name = "sedir-lite"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = {version = "1.45.1", features = ["full"]}
+tokio-macros = "2.5.0"
+ordered-float = "5.0.0"
