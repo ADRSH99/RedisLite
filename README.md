@@ -1,11 +1,16 @@
-# RedisLite
+# RedisLite 🦀🚀
 
-RESP (Redis Serialization Protocol) Specification
+A lightweight, single-threaded Redis-like key-value store written in Rust, powered by Tokio for async I/O.
+Built for learning, experimenting, and extending — not for production (yet)!.
 
-We've adopted the official RESP to ensure seamless communication in our system
-
+We've adopted the official RESP(Redis Serialization Protocol) Specification to ensure seamless communication in our system
 
 Features:
+
+    Basic Redis protocol (RESP) support
+    In-memory key-value store
+    Asynchronous handling of multiple clients using tokio
+
 Implemented Data Structures
 
     Strings
@@ -33,8 +38,8 @@ Prerequisites
 
 Installation
 
-git clone https://github.com/Matrx123/redis-like-clone
-cd redis-like-clone
-cargo build --release
+    git clone https://github.com/ADRSH99/RedisLite
+    cd RedisLite
+    cargo build --release
 
 
